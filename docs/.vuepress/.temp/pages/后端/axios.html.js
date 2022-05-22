@@ -31,6 +31,15 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "updatedTime": 1653187357000,
+    "contributors": [
+      {
+        "name": "aluser",
+        "email": "862205043@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "后端/axios.md"
 }

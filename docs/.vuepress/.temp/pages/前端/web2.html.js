@@ -6,6 +6,15 @@ export const data = {
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1653187357000,
+    "contributors": [
+      {
+        "name": "aluser",
+        "email": "862205043@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "前端/web2.md"
 }
