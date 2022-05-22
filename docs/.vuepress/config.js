@@ -10,7 +10,8 @@ module.exports = {
     },
     title: '你好',
     description: '第一个博客',
-    base: '/',
+    base: '/docs/',
+    // dest: '/testVuePress/docs/.vuepress/dist',
     head: [['link', {rel: 'icon', href: 'https://vuejs.org/images/logo.png'}]],
     theme: defaultTheme({
         navbar: [
@@ -42,16 +43,6 @@ module.exports = {
                 selectLanguageName: '中文'
             }
         },
-        sidebar: [
-            {
-                text:'标题1',
-                // 设置可折叠
-                collapsible: true
-            },
-            {
-                text: '标题2'
-            }
-        ],
 
     })
 }

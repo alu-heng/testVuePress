@@ -25,18 +25,10 @@ export const themeData = {
       "selectLanguageName": "中文"
     }
   },
-  "sidebar": [
-    {
-      "text": "标题1",
-      "collapsible": true
-    },
-    {
-      "text": "标题2"
-    }
-  ],
   "darkMode": true,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
+  "sidebar": "auto",
   "sidebarDepth": 2,
   "editLink": true,
   "editLinkText": "Edit this page",

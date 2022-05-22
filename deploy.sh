@@ -7,7 +7,6 @@ set -e
 yarn run docs:build
 
 # 进入生成的文件夹
-#cd public
 #cd docs/.vuepress/dist
 
 
