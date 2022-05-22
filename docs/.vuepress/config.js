@@ -1,5 +1,6 @@
 const {defaultTheme} = require('vuepress')
 module.exports = {
+    publicPath:'./',
     locales: {
         '/': {
             lang: 'en_US',
@@ -10,7 +11,7 @@ module.exports = {
     },
     title: '你好',
     description: '第一个博客',
-    base: '/docs/',
+    base: '/testVuePress/',
     // dest: '/testVuePress/docs/.vuepress/dist',
     head: [['link', {rel: 'icon', href: 'https://vuejs.org/images/logo.png'}]],
     theme: defaultTheme({
