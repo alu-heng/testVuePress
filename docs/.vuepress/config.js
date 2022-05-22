@@ -10,7 +10,7 @@ module.exports = {
     },
     title: '你好',
     description: '第一个博客',
-    base: '/',
+    // base: '',
     head: [['link', {rel: 'icon', href: 'https://vuejs.org/images/logo.png'}]],
     theme: defaultTheme({
         navbar: [
