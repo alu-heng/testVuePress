@@ -1,2 +1,1 @@
-<template><p>'# Hello VuePress'</p>
-</template>
+<template></template>
