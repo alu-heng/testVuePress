@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/docs/",
+  "base": "/testVuePress/docs/",
   "lang": "en-US",
   "title": "你好",
   "description": "第一个博客",
