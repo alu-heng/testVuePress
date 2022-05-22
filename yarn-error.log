@@ -1,0 +1,46 @@
+Arguments: 
+  D:\NodeJs\node.exe C:\Users\86220\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D vuepress/@next
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\appclient\bin;D:\app\86220\product\11.2.0\client_1\bin;D:\working\client;D:\app\86220\product\11.2.0\dbhome_1\bin;D:\app\86220\product\11.2.0\client_1;D:\working\Oracle\win64_11gR2_client\client1;D:\开发\oracle\app\oracle\product\11.2.0\server\bin;D:\VMware\bin\;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\NodeJs\;C:\ProgramData\chocolatey\bin;D:\tesseract;C:\Program Files\Git\cmd;D:\MinGW\mingw64\bin;D:\go\bin;D:\tomcat\apache-tomcat-9.0.43\bin;D:\Java8\bin\bin;D:\MongoDb\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\MySQL Server 8.0\bin;C:\Program Files\Git\bin;D:\ndk\android-ndk-r23b-windows\android-ndk-r23b\build;D:\Cygwin\bin;D:\appclient\bin;C:\Users\86220\AppData\Roaming\npm\node_modules\vue-cli\bin;D:\working\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;D:\jdk\bin;D:\working\maven\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin;C:\Users\86220\AppData\Local\Android\Sdk\platform-tools;D:\gvim\Vim\vim82;C:\Users\86220\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;D:\pycharm\PyCharm 2022.1.1\bin;;C:\Users\86220\AppData\Roaming\npm;D:\golandIDE\GoLand 2020.3.2\bin;;C:\Users\86220\go\bin;D:\webstorm\WebStorm 2020.3.2\bin;;D:\IDEA\IntelliJ IDEA 2022.1\bin;;;D:\C_ide\CLion 2021.2.1\bin;;D:\cmake\bin;D:\IDEA\IntelliJ IDEA Community Edition 2022.1\bin;;D:\Microsoft VS Code\bin;D:\prirateWorking\testVuePress\node_modules\.bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/vuepress%2f: [NOT_FOUND] vuepress/ not found
+      at Request.params.callback [as _callback] (C:\Users\86220\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\86220\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\86220\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:315:20)
+      at Gunzip.<anonymous> (C:\Users\86220\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:421:28)
+      at Gunzip.emit (events.js:315:20)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "testVuePress",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "aluser <862205043@qq.com>",
+    "license": "MIT",
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
